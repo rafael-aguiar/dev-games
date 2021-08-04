@@ -1,0 +1,13 @@
+<div class="search-container">
+  <form class="serch-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <span class="logo">Dev Games</span>
+    <input
+      class="search-input"
+      name="search"
+      type="text"
+      placeholder="Search 500.000+ games"
+      ngModel
+    />
+    <button class="search-button">Search</button>
+  </form>
+</div>
